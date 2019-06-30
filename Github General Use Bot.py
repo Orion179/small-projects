@@ -4,7 +4,7 @@ import beautifulsoup4
 from discord.ext import commands
 tkn='XXXXXXXXXXXXXXXXXXXXXXXX'
 
-bot = commands.Bot(command_prefix='!', description="I'm here to give you information, videos, and much more!")
+bot = commands.Bot(command_prefix='!', description="I'm here to give you information from the web!")
 
 @bot.event #Let's host know that bot is running
 async def on_ready():
